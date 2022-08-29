@@ -27,11 +27,6 @@ public class HomePageTest extends BaseTest{
 		sa.assertFalse(true);
 		sa.assertAll();
 	}
-	@Test (priority=2)
-	public void logout() {
-		
-		
-		hp.logout();
-	}
+
 
 }
